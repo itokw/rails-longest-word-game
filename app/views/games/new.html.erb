@@ -1,0 +1,12 @@
+<h1>New Game</h1>
+<div class="bluewrapper">
+  <% @letters.each do |letter|  %>
+  <p><%= letter %></p>
+  <% end %>
+</div>
+
+<p>"What is the longest form you can find?"</p>
+<form action="score" method="new">
+  <input type="text" name="">
+  <input type="submit" value="Play">
+</form>

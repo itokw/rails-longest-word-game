@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.bluewrapper {
+  fontweight: bold;
+}
+.bluewrapper p{
+  display: inline;
+  margin: 20px;
+  padding: 10px 15px;
+  background-color: lightblue;
+  box-shadow: 1px 1px 3px lightgrey;
